@@ -1,24 +1,14 @@
 import java.awt.*;
-import java.lang.reflect.Array;
-import java.util.concurrent.Future;
-import java.util.Scanner;
-import java.util.Arrays;
+import java.lang.Math;
+import java.util.Random;
 
 public class Main {
-
     public static void main(String[] args) {
-        Dog d = new Dog("Doug", 3);
-
-        d.bark();
-
-        int dogYears = d.getDogYears();
-        System.out.println(dogYears + " dog years.");
-
-        d.fetch();
-        d.fetch();
-        d.fetch();
-        d.fetch();
-
+        Coin c = new Coin();
+        System.out.println("Initial: " + c.getFaceUp());
+        for(int i = 0; i < 10; i++) {
+            c.flip();
+            System.out.println("After Flip: " + c.getFaceUp());
+        }
     }
-
 }
