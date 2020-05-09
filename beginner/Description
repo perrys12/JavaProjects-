@@ -1,0 +1,5 @@
+This folder contains a number of beginner projects. This document will highlight and outline what each file does. 
+- Car.java: This file uses a program to highlight the car travel speed and model as well as make in traffic. 
+The file uses a number of functions to highlight the difference of variables which will be used to create this program 
+- Coin.java: This file uses the program to do a coin flip. This also needs to be linked to the CoinMain.java file which uses logical expression to flip the coin
+- Dog.java: This file uses the program to automate what a dog would fetch and what the age of the dog will be. This will be linked towards the Main.java file too 
